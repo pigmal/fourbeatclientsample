@@ -15,12 +15,12 @@ import com.pigmal.android.fourbeat.service.IFourBeatServiceListener;
 public abstract class FourBeatBaseActivity extends Activity {
 	static final String TAG = "FourBeatActivity";
 	
-	protected static final int RED = 0;
-	protected static final int BLUE = 1;
-	protected static final int YELLOW = 2;
-	protected static final int GREEN = 3;
-	protected static final int OFF = 1;
-	protected static final int ON = 0;
+	protected static final int BUTTON_COLOR_RED = 0;
+	protected static final int BUTTON_COLOR_BLUE = 1;
+	protected static final int BUTTON_COLOR_YELLOW = 2;
+	protected static final int BUTTON_COLOR_GREEN = 3;
+	protected static final int BUTTON_STATE_ON = 1;
+	protected static final int BUTTON_STATE_OFF = 0;
 
 	private Activity mActivity;
 	

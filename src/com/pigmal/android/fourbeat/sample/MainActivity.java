@@ -27,20 +27,16 @@ public class MainActivity extends FourBeatBaseActivity {
 	private void updateUi(final int id, final int state) {
 		switch (id) {
 		case 0:
-			((TextView) findViewById(R.id.text_red))
-					.setText("state = " + state);
+			((TextView) findViewById(R.id.text_red)).setText("state = " + state);
 			break;
 		case 1:
-			((TextView) findViewById(R.id.text_blue)).setText("state = "
-					+ state);
+			((TextView) findViewById(R.id.text_blue)).setText("state = " + state);
 			break;
 		case 2:
-			((TextView) findViewById(R.id.text_yellow)).setText("state = "
-					+ state);
+			((TextView) findViewById(R.id.text_yellow)).setText("state = " + state);
 			break;
 		case 3:
-			((TextView) findViewById(R.id.text_green)).setText("state = "
-					+ state);
+			((TextView) findViewById(R.id.text_green)).setText("state = " + state);
 			break;
 		default:
 			break;
@@ -50,7 +46,6 @@ public class MainActivity extends FourBeatBaseActivity {
 	@Override
 	protected void onFourBeatConnected() {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
