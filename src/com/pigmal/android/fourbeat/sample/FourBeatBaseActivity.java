@@ -20,7 +20,7 @@ public abstract class FourBeatBaseActivity extends Activity {
 	protected static final int YELLOW = 2;
 	protected static final int GREEN = 3;
 	protected static final int OFF = 1;
-	protected static final int ON = 1;
+	protected static final int ON = 0;
 
 	private Activity mActivity;
 	
